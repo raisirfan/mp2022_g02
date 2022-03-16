@@ -1,4 +1,4 @@
-package com.example.mp2022_g02;
+package com.example.dqueuebookingappsnew;
 
 import org.junit.Test;
 

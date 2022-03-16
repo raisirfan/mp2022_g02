@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "722213315417",
-    "project_id": "d-queue---cafe-booking-apps",
-    "storage_bucket": "d-queue---cafe-booking-apps.appspot.com"
+    "project_number": "935773278939",
+    "project_id": "dqueueappsnew",
+    "storage_bucket": "dqueueappsnew.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:722213315417:android:0f8a62271b102b256ba248",
+        "mobilesdk_app_id": "1:935773278939:android:7dd158875119b00f5b32fe",
         "android_client_info": {
-          "package_name": "com.example.mp2022_g02"
+          "package_name": "com.example.dqueuebookingappsnew"
         }
       },
       "oauth_client": [
         {
-          "client_id": "722213315417-obs255cbape0dske2dpmoelcmoefusnf.apps.googleusercontent.com",
+          "client_id": "935773278939-mtkn537pmebl44i6c8ad2dc94mtag430.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCTV7fh43hoAE8Ylg-tqr970uTIpRaRYqg"
+          "current_key": "AIzaSyD2xW0tnTPAb7zclXvG5UvrU4wft_-1AbQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "722213315417-obs255cbape0dske2dpmoelcmoefusnf.apps.googleusercontent.com",
+              "client_id": "935773278939-mtkn537pmebl44i6c8ad2dc94mtag430.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

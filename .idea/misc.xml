@@ -3,14 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/MASTER PROJECT GROUP 2/mp2022_g02/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/UTM/4th Sem UTM/2 MP - Mobile Programming Class Assignments/GITHUB/MASTER PROJECT GROUP 2/mp2022_g02/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/UTM/4th Sem UTM/2 MP - Mobile Programming Class Assignments/GITHUB/MASTER PROJECT GROUP 2/mp2022_g02/app/src/main/res/layout/activity_registration.xml" value="0.2463768115942029" />
-        <entry key="..\:/UTM/4th Sem UTM/2 MP - Mobile Programming Class Assignments/GITHUB/MASTER PROJECT GROUP 2/mp2022_g02/app/src/main/res/layout/activity_second.xml" value="0.3" />
-        <entry key="..\:/UTM/4th Sem UTM/2 MP - Mobile Programming Class Assignments/GITHUB/MASTER PROJECT GROUP 2/mp2022_g02/app/src/main/res/layout/content_second.xml" value="0.264" />
-        <entry key="..\:/UTM/4th Sem UTM/2 MP - Mobile Programming Class Assignments/GITHUB/MASTER PROJECT GROUP 2/mp2022_g02/app/src/main/res/layout/fragment_first.xml" value="0.264" />
-        <entry key="..\:/UTM/4th Sem UTM/2 MP - Mobile Programming Class Assignments/GITHUB/MASTER PROJECT GROUP 2/mp2022_g02/app/src/main/res/layout/fragment_second.xml" value="0.264" />
-        <entry key="..\:/UTM/4th Sem UTM/2 MP - Mobile Programming Class Assignments/GITHUB/MASTER PROJECT GROUP 2/mp2022_g02/app/src/main/res/menu/menu.xml" value="0.3" />
+        <entry key="..\:/UTM/4th Sem UTM/Mobile Programming (MP)/DQueuebookingApps/app/src/main/res/layout/activity_main.xml" value="0.3" />
+        <entry key="..\:/UTM/4th Sem UTM/Mobile Programming (MP)/DQueuebookingApps/app/src/main/res/layout/activity_password.xml" value="0.3625" />
+        <entry key="..\:/UTM/4th Sem UTM/Mobile Programming (MP)/DQueuebookingApps/app/src/main/res/layout/activity_registration.xml" value="0.3625" />
+        <entry key="..\:/UTM/4th Sem UTM/Mobile Programming (MP)/DQueuebookingApps/app/src/main/res/layout/activity_second.xml" value="0.3625" />
+        <entry key="..\:/UTM/4th Sem UTM/Mobile Programming (MP)/DQueuebookingApps/app/src/main/res/menu/menu.xml" value="0.3625" />
       </map>
     </option>
   </component>
