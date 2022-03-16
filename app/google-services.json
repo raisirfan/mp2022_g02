@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "935773278939",
+    "project_id": "dqueueappsnew",
+    "storage_bucket": "dqueueappsnew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935773278939:android:7dd158875119b00f5b32fe",
+        "android_client_info": {
+          "package_name": "com.example.dqueuebookingappsnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935773278939-mtkn537pmebl44i6c8ad2dc94mtag430.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2xW0tnTPAb7zclXvG5UvrU4wft_-1AbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935773278939-mtkn537pmebl44i6c8ad2dc94mtag430.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

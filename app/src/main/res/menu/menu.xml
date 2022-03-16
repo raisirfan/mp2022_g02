@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Logout"
+        android:id="@+id/logoutMenu"
+        android:orderInCategory="100"
+        app:showAsAction="always">
+    </item>
+
+    <item android:title="Settings"
+        android:id="@+id/settingsMenu"
+        android:orderInCategory="200"
+        app:showAsAction="never">
+    </item>
+
+    <item android:title="Refresh"
+        android:id="@+id/refreshMenu"
+        android:orderInCategory="300"
+        app:showAsAction="never">
+    </item>
+
+</menu>
