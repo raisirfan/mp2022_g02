@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DQueueBookingAppsNew">
         <activity
+            android:name=".UpdatePassword"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
             android:name=".PasswordActivity"
             android:exported="false" />
         <activity

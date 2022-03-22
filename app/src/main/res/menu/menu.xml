@@ -9,8 +9,8 @@
         app:showAsAction="always">
     </item>
 
-    <item android:title="Settings"
-        android:id="@+id/settingsMenu"
+    <item android:title="Profile"
+        android:id="@+id/profileMenu"
         android:orderInCategory="200"
         app:showAsAction="never">
     </item>
