@@ -8,4 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="redCherry">#D2042D</color>
+    <color name="sunsetOrange">#fd5e53</color>
+    <color name="persianRed">#cc3333</color>
+    <color name="themeRed">#c30017</color>
 </resources>

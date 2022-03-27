@@ -4,23 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/redCherry"
+    android:background="@color/persianRed"
     tools:context=".splashScreen">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="384dp"
-        android:layout_height="67dp"
-        android:fontFamily="monospace"
-        android:text="WELCOME TO D'QUEUE BOOKING APPS"
-        android:textColor="@color/white"
-        android:textSize="30sp"
-        android:textStyle="bold"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="516dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.407"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.594" />
-
+        app:srcCompat="@drawable/dqueue_icon_logo" />
 </androidx.constraintlayout.widget.ConstraintLayout>
