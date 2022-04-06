@@ -50,13 +50,14 @@
         android:id="@+id/ivProfilePicUpdate"
         android:layout_width="110dp"
         android:layout_height="110dp"
+        android:background="#FF0000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.278"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@drawable/ic_launcher_foreground" />
 
     <EditText
         android:id="@+id/etNameUpdate"

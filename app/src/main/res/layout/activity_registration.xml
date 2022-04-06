@@ -124,7 +124,7 @@
         android:id="@+id/ivProfile"
         android:layout_width="110dp"
         android:layout_height="110dp"
-        android:background="#15ED0E"
+        android:background="#ED1313"
         app:layout_constraintBottom_toTopOf="@+id/etUsername"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
