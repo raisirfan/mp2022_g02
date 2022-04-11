@@ -10,13 +10,13 @@
         android:id="@+id/imageView5"
         android:layout_width="414dp"
         android:layout_height="112dp"
+        android:background="#EF233C"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/border" />
+        app:layout_constraintVertical_bias="0.0"/>
 
     <ImageView
         android:id="@+id/imageView9"
@@ -29,12 +29,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.1"
-        app:srcCompat="@drawable/dqueue" />
+        app:srcCompat="@drawable/dqueue_icon_logo" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="263dp"
         android:layout_height="27dp"
+        android:fontFamily="@font/audreybold"
         android:text="D'QUEUE BOOKING APPS"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
@@ -53,11 +54,13 @@
         android:background="#FF0000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.278"
         tools:srcCompat="@drawable/ic_launcher_foreground" />
+        app:layout_constraintVertical_bias="0.277"
+        tools:srcCompat="@drawable/man" />
 
     <EditText
         android:id="@+id/etNameUpdate"
@@ -67,12 +70,14 @@
         android:hint="Username"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:background="@drawable/re_custom"
+        android:paddingStart="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ivProfilePicUpdate"
-        app:layout_constraintVertical_bias="0.139" />
+        app:layout_constraintVertical_bias="0.155" />
 
     <EditText
         android:id="@+id/etEmailUpdate"
@@ -82,12 +87,14 @@
         android:hint="Email"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:background="@drawable/re_custom"
+        android:paddingStart="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etNameUpdate"
-        app:layout_constraintVertical_bias="0.111" />
+        app:layout_constraintVertical_bias="0.14" />
 
     <EditText
         android:id="@+id/etAgeUpdate"
@@ -97,22 +104,26 @@
         android:hint="Age"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:background="@drawable/re_custom"
+        android:paddingStart="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etEmailUpdate"
-        app:layout_constraintVertical_bias="0.218" />
+        app:layout_constraintVertical_bias="0.184" />
 
     <Button
         android:id="@+id/btnSave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#2B2D42"
         android:text="Save"
+        android:textColor="#8D99AE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etAgeUpdate"
-        app:layout_constraintVertical_bias="0.358" />
+        app:layout_constraintVertical_bias="0.4" />
 </androidx.constraintlayout.widget.ConstraintLayout>

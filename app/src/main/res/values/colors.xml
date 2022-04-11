@@ -11,4 +11,9 @@
     <color name="sunsetOrange">#fd5e53</color>
     <color name="persianRed">#cc3333</color>
     <color name="themeRed">#c30017</color>
+    <color name="darkBlue">#2B2D42</color>
+    <color name="grey">#8D99AE</color>
+    <color name="silverWhite">#EDF2F4</color>
+    <color name="lightRed">#EF233C</color>
+    <color name="red">#D90429</color>
 </resources>
