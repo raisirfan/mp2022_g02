@@ -2,16 +2,25 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dqueuebookingappsnew">
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/dqueue_icon_logo"
+        android:icon="@drawable/dqueue_icon_logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/dqueue_icon_logo"
+        android:roundIcon="@drawable/dqueue_icon_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.DQueueBookingAppsNew">
+        <activity
+            android:name=".Payment"
+            android:exported="false" />
+        <activity
+            android:name=".ReservationForm"
+            android:exported="false" />
+        <activity
+            android:name=".PushNotification"
+            android:exported="false" />
         <activity
             android:name=".splashScreen"
             android:exported="true">
@@ -21,7 +30,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".UpdatePassword"
             android:exported="false" />
@@ -39,11 +47,10 @@
             android:exported="false" />
         <activity
             android:name=".SecondActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>
