@@ -10,20 +10,20 @@
         android:id="@+id/imageView7"
         android:layout_width="420dp"
         android:layout_height="114dp"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toTopOf="@+id/etName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/border"
-        android:contentDescription="TODO" />
+        app:srcCompat="@drawable/border" />
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="96dp"
         android:layout_height="81dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintBottom_toTopOf="@+id/etName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -36,6 +36,11 @@
         android:id="@+id/etUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/re_custom"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
         android:ems="10"
         android:hint="Username"
         android:inputType="textPersonName"
@@ -52,6 +57,9 @@
         android:id="@+id/etUserEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/re_custom"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
         android:ems="10"
         android:hint="Email"
         android:inputType="textPersonName"
@@ -67,6 +75,11 @@
         android:id="@+id/etUserPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/re_custom"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
@@ -84,31 +97,38 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SIGN UP"
+        android:backgroundTint="#2B2D42"
+        android:textColor="#8D99AE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etUserPassword"
-        app:layout_constraintVertical_bias="0.376" />
+        app:layout_constraintVertical_bias="0.528" />
 
     <TextView
         android:id="@+id/tvUserLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Already Signed Up? Login"
-        android:textColor="@color/persianRed"
+        android:textColor="@color/grey"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnRegister"
-        app:layout_constraintVertical_bias="0.189" />
+        app:layout_constraintVertical_bias="0.348" />
 
     <EditText
         android:id="@+id/etAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/re_custom"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
         android:ems="10"
         android:hint="Age"
         android:inputType="number"
@@ -118,7 +138,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etUserPassword"
-        app:layout_constraintVertical_bias="0.384" />
+        app:layout_constraintVertical_bias="0.52" />
 
     <ImageView
         android:id="@+id/ivProfile"
@@ -130,7 +150,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.92"
-        app:srcCompat="@drawable/ic_launcher_foreground" />
+        app:layout_constraintVertical_bias="0.84"
+        app:srcCompat="@drawable/ic_launcher_background" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
