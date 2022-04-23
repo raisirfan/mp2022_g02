@@ -13,6 +13,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DQueueBookingAppsNew">
         <activity
+            android:name=".Receipt"
+            android:exported="false" />
+        <activity
+            android:name=".OrderHistory"
+            android:exported="false" />
+        <activity
+            android:name=".Sah"
+            android:exported="false" />
+        <activity
+            android:name=".UserPayment"
+            android:exported="false" />
+        <activity
             android:name=".Payment"
             android:exported="false" />
         <activity

@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/tvPhoneNumber"
         app:layout_constraintVertical_bias="0.07"
         tools:srcCompat="@drawable/man" />
 
@@ -95,7 +95,7 @@
         app:layout_constraintVertical_bias="0.478" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/tvPhoneNumber"
         android:layout_width="289dp"
         android:layout_height="66dp"
         android:fontFamily="@font/maldins_free"
