@@ -29,14 +29,14 @@ public class SecondActivity extends AppCompatActivity {
         logout = (Button) findViewById(R.id.btnLogout);
         profile = findViewById(R.id.btnProfile);
         history = findViewById(R.id.btnHistory);
-        receipt = findViewById(R.id.btnReceipt);
+        //receipt = findViewById(R.id.btnReceipt);
 
-        receipt.setOnClickListener(new View.OnClickListener() {
+        /*receipt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(SecondActivity.this, Receipt.class));
             }
-        });
+        });*/
 
         history.setOnClickListener(new View.OnClickListener() {
             @Override

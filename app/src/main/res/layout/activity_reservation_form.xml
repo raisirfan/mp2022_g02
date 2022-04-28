@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFE8D6"
     tools:context=".ReservationForm">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/maldins_free"
         android:text="Reservation Form"
-        android:textSize="34sp"
-        android:textStyle="bold"
+        android:textSize="64sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -24,89 +25,106 @@
         android:id="@+id/etFullName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/re_custom"
+        android:backgroundTint="#ddbea9"
         android:ems="10"
         android:hint="Full Name"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:paddingStart="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.329"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.056" />
+        app:layout_constraintVertical_bias="0.052" />
 
     <EditText
         android:id="@+id/etPhoneNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="356dp"
+        android:background="@drawable/re_custom"
+        android:backgroundTint="#ddbea9"
         android:ems="10"
         android:hint="Phone Number"
         android:inputType="phone"
         android:minHeight="48dp"
+        android:paddingStart="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.293"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etFullName"
-        app:layout_constraintVertical_bias="0.239" />
+        app:layout_constraintVertical_bias="0.359" />
 
     <EditText
         android:id="@+id/etDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/re_custom"
+        android:backgroundTint="#ddbea9"
         android:ems="10"
         android:hint="DD/MM/YY"
         android:inputType="date"
         android:minHeight="48dp"
+        android:paddingStart="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.329"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etPhoneNumber"
-        app:layout_constraintVertical_bias="0.061" />
+        app:layout_constraintVertical_bias="0.071" />
 
     <EditText
         android:id="@+id/etTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/re_custom"
+        android:backgroundTint="#ddbea9"
         android:ems="10"
         android:hint="Minutes"
         android:inputType="time"
         android:minHeight="48dp"
+        android:paddingStart="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.329"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etDate"
-        app:layout_constraintVertical_bias="0.081" />
+        app:layout_constraintVertical_bias="0.09" />
 
     <EditText
         android:id="@+id/etGuest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/re_custom"
+        android:backgroundTint="#ddbea9"
         android:ems="10"
         android:hint="Number of guests"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:paddingStart="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.329"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etTime"
-        app:layout_constraintVertical_bias="0.104" />
+        app:layout_constraintVertical_bias="0.112" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="378dp"
         android:layout_height="58dp"
+        android:fontFamily="@font/roboto_regular"
         android:text="I have read, understood  and accepted Dqueue reservation rules"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etGuest"
-        app:layout_constraintVertical_bias="0.157" />
+        app:layout_constraintVertical_bias="0.178" />
 
     <Button
         android:id="@+id/btnBook"

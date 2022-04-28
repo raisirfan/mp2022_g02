@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFE8D6"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -11,53 +11,55 @@
         android:id="@+id/tv_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/maldins_free"
         android:text="Login"
         android:textAlignment="center"
-        android:textSize="64sp"
-        android:layout_marginStart="25dp"
-        android:layout_marginBottom="5dp"
         android:textColor="@color/darkBlue"
-        android:fontFamily="@font/maldins_free"
-        android:layout_marginTop="60dp"/>
+        android:textSize="64sp" />
 
     <TextView
         android:id="@+id/tv_subtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to our new Restaurant Booking Apps"
-        android:textSize="17sp"
-        android:textColor="@color/grey"
-        android:fontFamily="@font/roboto_regular"
         android:layout_marginStart="25dp"
-        android:layout_marginBottom="50dp"/>
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="Welcome to our new Restaurant Booking Apps"
+        android:textColor="@color/grey"
+        android:textSize="17sp" />
 
 
     <EditText
         android:id="@+id/etEmail"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:hint="Email"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="10dp"
-        android:padding="15dp"
-        android:fontFamily="@font/roboto_regular"
-        android:inputType="textEmailAddress"
         android:background="@drawable/re_custom"
+        android:backgroundTint="#ddbea9"
+        android:fontFamily="@font/roboto_regular"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
         android:textSize="15sp" />
 
     <EditText
         android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:hint="Password"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="10dp"
-        android:padding="15dp"
-        android:fontFamily="@font/roboto_regular"
-        android:inputType="textPassword"
         android:background="@drawable/re_custom"
+        android:backgroundTint="#ddbea9"
+        android:fontFamily="@font/roboto_regular"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="15dp"
         android:textSize="15sp" />
 
 
@@ -76,8 +78,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="125dp"
-        android:layout_marginRight="90dp"
         android:layout_marginTop="100dp"
+        android:layout_marginRight="90dp"
         android:layout_marginBottom="20dp"
         android:fontFamily="@font/roboto_regular"
         android:text="New User? Sign Up"
@@ -93,9 +95,9 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="30dp"
-        android:layout_marginTop="10dp"
         android:background="@drawable/btn_custom"
         android:fontFamily="@font/roboto_regular"
         android:text="LOGIN"
